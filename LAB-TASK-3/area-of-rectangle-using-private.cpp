@@ -2,21 +2,21 @@
 using namespace std;
 class Rectangle {
 private:
-    double length, width;
+    double length;
 public:
-    double compute_area(double l, double w){
+    double width;
+    double compute_area(double l){
         length = l;
-        width = w;
         return length*width;
     }
 };
 int main()
 {
     Rectangle obj;
-    double l, w;
-    w = 10.5;
+    obj.width = 10.00;
+    double l;
     l = 5.00;
-    cout<<"Length is: "<<w<<endl;
-    cout<<"Width is: "<<l<<endl;
-    cout<<"Area of rectangle is: "<<obj.compute_area(l, w)<<endl;
+    cout<<"Width is: "<<obj.width<<endl;
+    cout<<"Length is: "<<l<<endl;
+    cout<<"Area of rectangle is: "<<obj.compute_area(l)<<endl;
 }
