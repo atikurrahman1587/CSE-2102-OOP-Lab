@@ -4,10 +4,13 @@ class Number{
 public:
     void calculations()
     {
-        int n, first_one, last_one, temp;
+        int n, last_one;
         cin>>n;
-        first_one = n%10;
-        cout<<first_one<<endl;
+        while(n != 0){
+            last_one = n%10;
+            n = n/10;
+        }
+        cout<<last_one<<endl;
     }
 };
 
