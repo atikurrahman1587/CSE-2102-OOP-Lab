@@ -9,8 +9,9 @@ public:
 };
 int main()
 {
+    double x;
     Circle obj;
-    obj.redius = 10.5;
-    cout<<"Radius is: "<<obj.redius<<endl;
-    cout<<"Area of circle is: "<<obj.compute_area()<<endl;
+    cin>>x;
+    obj.redius = x;;
+    cout<<"Area : "<<obj.compute_area()<<endl;
 }

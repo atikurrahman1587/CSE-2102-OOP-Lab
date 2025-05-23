@@ -1,6 +1,5 @@
-//#include<iostream>
-//#include<math.h>
-#include<bits/stdc++.h>
+#include<iostream>
+#include<math.h>
 using namespace std;
 class Number{
 public:

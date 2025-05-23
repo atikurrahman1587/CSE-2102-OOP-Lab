@@ -2,7 +2,7 @@
 using namespace std;
 class Number{
 public:
-    void calculations()
+    void lastNumber()
     {
         int n, last_one, temp;
         cin>>n;
@@ -14,5 +14,5 @@ public:
 int main()
 {
     Number obj;
-    obj.calculations();
+    obj.lastNumber();
 }

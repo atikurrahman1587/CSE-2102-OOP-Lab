@@ -5,13 +5,12 @@ class Number{
 public:
     int isPrime()
     {
-        int n, flag=1;
+        int n, flag = 1;
         cin>>n;
         for(int i = 2; i <= sqrt(n); i++){
             if(n%i == 0){
                 flag = 0;
                 break;
-
             }
         }
         return flag;
@@ -20,9 +19,9 @@ public:
 int main()
 {
     Number obj;
-    if(obj.isPrime()==1){
-        cout<<"Prime Number"<<endl;
+    if(obj.isPrime() == 1){
+        cout<<"Prime"<<endl;
     } else {
-        cout<<"Not a Prime Number"<<endl;
+        cout<<"Not a prime"<<endl;
     }
 }

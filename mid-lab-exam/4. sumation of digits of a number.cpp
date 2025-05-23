@@ -2,7 +2,7 @@
 using namespace std;
 class Number{
 public:
-    void calculations()
+    void sumOfNumber()
     {
         int n, r, sum = 0;
         cin>>n;
@@ -18,5 +18,5 @@ public:
 int main()
 {
     Number obj;
-    obj.calculations();
+    obj.sumOfNumber();
 }
